@@ -6,8 +6,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	mem->GetHandle("cs2.exe");
 	mem->clientDLL = mem->GetModuleAddress("client.dll");
 
-	if (!mem->clientDLL)
-		exit(1);
+	//if (!mem->clientDLL)
+	//	exit(1);
 
 	Logger::Log("[INFO] Found Client at ->  ", mem->clientDLL);
 

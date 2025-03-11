@@ -1,4 +1,14 @@
-
+*.obj
+*.pdb
+*.exe
+*.suo
+*.db
+*.opendb
+*.shm
+*.ipch
+*.recipe
+*.iobj
+*.log
+*.wal
 *.vsidx
-/.vs/djindjan/v17
 *.tlog
